@@ -1,0 +1,31 @@
+.singlePageSidebar {
+  width: 360px;
+  height: 100vh;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: linear-gradient(to right, #000000dc, transparent), rgba(0, 0, 0, 0.363);
+};
+
+.singlePage {
+  display: flex;
+
+}
+
+.singleCountryChart {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+  justify-content: stretch;
+  align-items: flex-start;
+  width: calc(100vw - 360px);
+height: 80vh;
+}
+
+.currentStats {
+  display: flex;
+  margin-left: 30px;
+  div:first-of-type {
+    margin-right: 40px;
+  }
+}
